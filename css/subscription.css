@@ -1,0 +1,109 @@
+/* 3. sus Section Layout */
+.sus-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px; /* You can adjust based on your design */
+  margin: 0 auto;
+
+  border-radius: 16px;
+  gap: 2rem;
+  background-color: #f8f7f3;
+}
+
+/* 4. Content Container */
+.sus-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between elements */
+  padding: 2rem 2rem 2rem 4rem;
+}
+
+/* 5. Label */
+.sus-label {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #b1b1b1; /* Light gray or brand color */
+  text-transform: uppercase;
+}
+
+/* 6. Title */
+.sus-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000; /* or your brand’s main text color */
+  line-height: 1.2;
+}
+
+/* 7. Benefits List */
+.sus-benefits {
+  list-style: none; /* Remove default bullets */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Space between items */
+}
+
+.sus-benefits li {
+  background-color: #d9dcdf9c; /* A light background bubble or highlight */
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* 8. Button Container */
+.btn-container {
+  margin-top: 1rem;
+}
+
+.sus-btn {
+  background-color: #c9ab8c; /* Example brand color for the CTA button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sus-btn:hover {
+  background-color: #b3987c; /* Darken slightly on hover */
+}
+
+/* 9. Image Container */
+.sus-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sus-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* 10. Responsive Media Queries */
+@media (max-width: 992px) {
+  .sus-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sus-content {
+    align-items: center;
+  }
+
+  .sus-benefits {
+    justify-content: center;
+  }
+
+  .sus-image {
+    margin-top: 2rem;
+  }
+}
