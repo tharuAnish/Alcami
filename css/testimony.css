@@ -57,7 +57,7 @@
   opacity: 50%;
   background: #ddd;
 }
-.arrows {
+.tm-arrows {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   margin-top: 20px;
   gap: 8px;
 }
-.arrow {
+.tm-arrow {
   width: 40px;
   height: 40px;
   background: rgb(80, 80, 80);
