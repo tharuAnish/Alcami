@@ -1,0 +1,181 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer container */
+.footer {
+  background-color: #2d2a27;
+  color: white;
+  padding: 60px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* ALCAMI logo */
+.footer-logo {
+  flex: 1 1 100%;
+  margin-bottom: 40px;
+}
+
+.ft-h1 {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 8px;
+}
+
+/* Navigation columns */
+.footer-nav {
+  flex: 1 1 20%;
+  min-width: 140px;
+  margin-bottom: 30px;
+}
+
+.ft-h4 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.footer-nav .ft-ul {
+  list-style: none;
+}
+
+.ft-li {
+  margin-bottom: 15px;
+}
+.ft-a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.3s;
+}
+
+.ft-a:hover {
+  opacity: 0.8;
+}
+
+/* Social media column */
+.footer-social {
+  flex: 1 1 20%;
+  min-width: 140px;
+  margin-bottom: 30px;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer-social a:hover {
+  opacity: 0.8;
+}
+
+.footer-social a img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Newsletter column */
+.footer-newsletter {
+  flex: 1 1 30%;
+  min-width: 300px;
+}
+
+.footer-newsletter h4 {
+  color: #e4a73b;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.footer-newsletter form {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.footer-newsletter input[type="email"] {
+  flex: 1;
+  padding: 12px 15px;
+  background-color: #2d2a27;
+  border: 1px solid #555;
+  color: white;
+  border-radius: 0;
+}
+
+.footer-newsletter button {
+  padding: 12px 20px;
+  background-color: white;
+  color: #2d2a27;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.footer-newsletter p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.footer-newsletter a {
+  color: #e4a73b;
+  text-decoration: none;
+}
+
+/* Copyright section */
+.footer-copyright {
+  flex: 1 1 100%;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  font-size: 12px;
+  color: #e4a73b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 30px;
+  }
+
+  .footer-logo h1 {
+    font-size: 36px;
+  }
+
+  .footer-nav,
+  .footer-social {
+    flex: 1 1 50%;
+  }
+
+  .footer-newsletter {
+    flex: 1 1 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-nav,
+  .footer-social {
+    flex: 1 1 100%;
+  }
+
+  .footer-newsletter form {
+    flex-direction: column;
+  }
+
+  .footer-newsletter button {
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+}
