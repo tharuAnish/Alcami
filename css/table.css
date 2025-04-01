@@ -1,3 +1,14 @@
+.table-responsive {
+  max-width: 100vw; /* Adjust this height as needed */
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 /* Header styles */
 h1 {
   text-align: center;

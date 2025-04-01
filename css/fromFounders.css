@@ -1,0 +1,143 @@
+/* Founders Section */
+.founders-section {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  max-width: 1200px; /* Adjust to your desired max width */
+  margin: 0 auto;
+  padding: 40px 20px;
+  gap: 40px; /* Spacing between image/video and text */
+}
+
+/* Video/Image Wrapper */
+.video-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+
+/* Play button overlay */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #d4b648;
+}
+
+.play-icon {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  margin-left: 5px;
+}
+
+/* Text container */
+.founders-content {
+  /* flex: 1; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+  margin-block: 4rem;
+}
+
+.founder-left {
+  flex-basis: 40%;
+  min-width: 200px;
+}
+
+.founders-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.founders-text {
+  flex-basis: 55%;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.founders-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #e6c857;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.founders-button:hover {
+  background-color: #d4b648;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 900px) {
+  .founders-section {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .video-wrapper,
+  .founders-content {
+    max-width: 100%;
+  }
+}
+
+/* Responsive Media Queries */
+@media (max-width: 900px) {
+  .founders-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .video-wrapper {
+    max-width: 100%; /* Ensures the video is not too wide */
+  }
+
+  .founders-content {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .founder-left {
+    text-align: center;
+  }
+
+  .founders-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-block: 20px;
+    text-align: center;
+  }
+
+  .founders-button {
+    display: inline-block;
+  }
+}
