@@ -115,9 +115,8 @@ td:first-child {
 
 .cta-button-table {
   display: inline-block;
-  background-color: #d4b254;
-  color: white;
-  padding: 15px 40px;
+  background: var(--gradient-gold);
+  padding: 10px 40px;
   font-size: 18px;
   text-decoration: none;
   border-radius: 30px;

@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: #d4b648;
+  background: var(--gradient-gold);
 }
 
 .play-icon {
@@ -78,14 +78,13 @@
 
 /* Button styling */
 .founders-button {
-  padding: 12px 24px;
+  padding: 10px 28px;
   font-size: 1rem;
-  background-color: #e6c857;
+  background: var(--gradient-gold);
   border: none;
-  border-radius: 4px;
+  border-radius: 25px;
   cursor: pointer;
   color: #333;
-  font-weight: 600;
   transition: background-color 0.3s;
 }
 

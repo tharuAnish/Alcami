@@ -3,7 +3,7 @@
 /* Footer container */
 .footer {
   background-color: #2d2a27;
-  color: white;
+  color: rgb(179, 176, 176);
   padding: 60px 80px;
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
   margin-bottom: 15px;
 }
 .ft-a {
-  color: white;
+  color: rgb(179, 176, 176);
   text-decoration: none;
   font-size: 14px;
   transition: opacity 0.3s;
@@ -63,7 +63,7 @@
 .footer-social a {
   display: flex;
   align-items: center;
-  color: white;
+
   text-decoration: none;
   margin-bottom: 15px;
   font-size: 14px;
@@ -77,6 +77,7 @@
   margin-right: 10px;
   width: 20px;
   height: 20px;
+  border-radius: 30px;
 }
 
 /* Newsletter column */
@@ -106,16 +107,6 @@
   border-radius: 0;
 }
 
-.footer-newsletter button {
-  padding: 12px 20px;
-  background-color: white;
-  color: #2d2a27;
-  border: none;
-  cursor: pointer;
-  font-weight: normal;
-  border-radius: 0;
-}
-
 .footer-newsletter p {
   font-size: 12px;
   line-height: 1.5;
@@ -125,6 +116,18 @@
 .footer-newsletter a {
   color: #e4a73b;
   text-decoration: none;
+}
+
+.ft-submit {
+  margin-left: 8px;
+  height: fit-content;
+  padding: 18px 20px;
+  background-color: white;
+  color: var(--gradient-gold);
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  border-radius: 8px;
 }
 
 /* Copyright section */

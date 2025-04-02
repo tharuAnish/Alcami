@@ -119,13 +119,15 @@ nav {
 
 .logo {
   display: flex;
-  align-items: center;
-  height: 100%;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally (optional) */
+  height: 100%; /* Ensure parent has a height */
 }
 
 .logo img {
   width: 140px;
   display: block;
+  margin-top: 5px;
 }
 
 .menu ul {
@@ -239,7 +241,7 @@ nav {
   display: flex;
   align-items: center;
   background: var(--gradient-gold);
-  color: var(--color-white);
+  color: #222222;
   padding: 8px 25px;
   border-radius: var(--radius-pill);
   font-weight: 400;
@@ -368,10 +370,10 @@ nav {
   display: inline-flex;
   align-items: center;
   background: var(--gradient-gold);
-  color: var(--color-white);
+  color: black;
   padding: 8px 28px;
   border-radius: var(--radius-pill);
-  font-weight: 400;
+
   transition: all 0.3s ease;
 }
 

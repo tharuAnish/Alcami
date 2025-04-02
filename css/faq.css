@@ -33,12 +33,11 @@
 
 .get-in-touch-btn {
   display: inline-block;
-  background-color: #d6b460;
-  color: #333;
+  background: var(--gradient-gold);
+  color: black;
   text-decoration: none;
-  padding: 14px 28px;
+  padding: 10px 32px;
   border-radius: 30px;
-  font-weight: 600;
   transition: background-color 0.3s;
 }
 
@@ -57,7 +56,7 @@
 
 .faq-item {
   border-bottom: 1px solid #ddd;
-  padding: 24px 0;
+  padding: 18px 0;
 }
 
 .faq-question {
