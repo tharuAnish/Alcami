@@ -6,6 +6,7 @@
   margin-block: 4rem;
   padding-block: 4rem;
   overflow-y: scroll;
+  padding-inline: 11px;
 }
 .testimonial-section {
   max-width: 1100px;
@@ -26,7 +27,7 @@
 }
 .testimonial-container {
   display: flex;
-  overflow: hidden;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .testimonial-card {
@@ -81,4 +82,10 @@
 .tm-arrow-r {
   background-color: #272727;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .tm-arrows {
+    display: none;
+  }
 }

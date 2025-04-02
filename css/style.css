@@ -88,10 +88,10 @@ ul {
 }
 
 .container {
-  width: 90%;
+  width: 96%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 7px;
 }
 
 /* Top Banner */
@@ -567,6 +567,21 @@ nav {
   .features {
     gap: 20px;
   }
+
+  .search-icon {
+    display: none;
+  }
+
+  .rating {
+    display: none;
+  }
+
+  .taste-banner {
+    margin-inline: 8px;
+  }
+  .taste-banner p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -581,9 +596,5 @@ nav {
   .taste-banner {
     margin-top: 40px;
     padding: 15px;
-  }
-
-  .taste-banner p {
-    font-size: 18px;
   }
 }

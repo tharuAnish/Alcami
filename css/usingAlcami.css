@@ -15,9 +15,10 @@ a {
 
 /* Container utility */
 .container {
-  width: 90%;
+  width: 96%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 8px;
 }
 
 /* ------------------------------
@@ -138,13 +139,20 @@ header {
          RESPONSIVE DESIGN
       ------------------------------ */
 @media (max-width: 768px) {
+  .stats {
+    padding-inline: 2rem;
+  }
   .hero {
     flex-direction: column;
   }
   .stats-grid {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     gap: 2rem;
-    justify-content: center;
+    justify-content: left;
+  }
+  .heroa {
+    padding: 1rem;
   }
 }

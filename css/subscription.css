@@ -96,11 +96,14 @@
   }
 
   .sus-content {
-    align-items: center;
+    align-items: start;
+
+    gap: 1.5rem; /* Space between elements */
+    padding: 2rem;
   }
 
   .sus-benefits {
-    justify-content: center;
+    justify-content: start;
   }
 
   .sus-image {
